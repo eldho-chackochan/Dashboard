@@ -115,9 +115,6 @@ padding-left:30px;
 .lower-links ul li:hover{
   background-color:white;
   color:black;
-  padding-top:7px;
-  padding-bottom: 7px;
-  padding-left:7px;
 }
 
 
@@ -168,4 +165,61 @@ img[src="assets/bell-ring.svg"]{
   font-weight:bold;
   font-family: 'Roboto',Arial, Helvetica, sans-serif;
   font-size:1.2rem;
+}
+
+.about-container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top:10px;
+}
+.profile{
+  margin-left:50px;
+  width:50px;
+  height:50px;
+}
+.welcome-text{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left:-10px;
+}
+
+.welcome-text span:first-child{
+font-size:0.7rem;
+font-weight:bold;
+font-family:'Roboto',Arial, Helvetica, sans-serif;
+}
+.welcome-text span:nth-child(2){
+  font-weight:bold;
+  font-family:'Roboto',Arial, Helvetica, sans-serif;
+}
+
+.header-container div:last-child{
+  margin-left:10px;
+}
+
+.button-container{
+display: flex;
+flex:1;
+justify-content: flex-end;
+margin-right:50px;
+gap:20px; 
+}
+
+ button{
+  padding:8px 10px;
+  width:100px;
+  border-radius:20px;
+  border:1px solid white;
+  background-color:rgb(143, 195, 22);
+  color:white;
+  box-shadow: 0px 3px 5px rgba(0,0,0,.15);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+button:hover{
+  background-color:white;
+  color:black;
 }
