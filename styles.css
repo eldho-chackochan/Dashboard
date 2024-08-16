@@ -238,25 +238,27 @@ button:hover{
 .main-container{
 grid-area: main;
 background-color: rgb(199, 241, 199);
+height:82vh;
 
 }
 
 
 .grid{
   display:grid;
-  grid-template-columns: 350px 350px;
-  grid-template-rows:150px 150px 150px;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows:150px 150px;
   column-gap:10px;
   row-gap: 10px;
-  height:82vh;
+  
   padding-top:15px;
+  justify-content: center;
 }
 
 .first-element{
   padding-top:10px;
   border-radius:6px;
   background-color:white;
-  margin-left:30px;
+  margin-left:10px;
   margin-top:20px;
   box-shadow: 3px 3px 5px rgba(6, 6, 6, 0.25);
   border-left:  5px solid rgb(68, 233, 68);
@@ -269,6 +271,7 @@ justify-content: flex-start;
 padding-left:15px;
 padding-top:10px;
 }
+
 .first-element div span{
   font-weight:bold;
   font-family:'Roboto',Arial, Helvetica, sans-serif;
@@ -287,3 +290,37 @@ padding-top:10px;
   gap:10px;
   padding-top:10px;
 }
+.Announcement-container{
+  width:80%;
+  margin-top:40px;
+  border-radius:6px;
+  background-color:white;
+  margin-left:80px;
+  box-shadow: 3px 3px 5px rgba(6, 6, 6, 0.25);
+  padding-bottom: 6px;
+}
+.Announcement-container >p{
+  font-weight:bold;
+
+  padding-left:6px;
+  font-size: 1.2rem;
+  font-family:'Roboto',Arial, Helvetica, sans-serif;
+}
+.Announcement-container div span{
+  padding-left:6px;
+  font-family:'Roboto',Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.Announcement-container div p{
+  font-size: 0.8rem;
+  padding-left:6px;
+  font-family:'Roboto',Arial, Helvetica, sans-serif;
+}
+
+.Announcement-container div{
+  padding-top:10px;
+  padding-bottom:5px;
+  border-bottom:1px solid grey;
+}
+
